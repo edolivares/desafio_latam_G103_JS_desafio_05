@@ -1,0 +1,45 @@
+.bg-smoke {
+    background-color: #2d2d2d;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.section-boxes {
+    background-color: rgb(184, 184, 184);
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 10px;
+    padding: 20px;
+}
+
+.box {
+    width: 200px;
+    height: 200px;
+    border-radius: 5%;
+}
+
+.box-border {
+    border: 2px solid black;
+}
+
+.min-vh-100 {
+    min-height: 100vh;
+}
+
+.w-cuadro {
+    width: 200px;
+}
+
+.h-cuadro {
+    height: 150px;
+}
+
+#ele1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5rem;
+}
